@@ -1,3 +1,17 @@
+# 写在前面
+原作者：github地址：[https://github.com/HatBoy/Struts2-Scan](https://github.com/HatBoy/Struts2-Scan)
+感谢原作者开源的工具
+此次是在原有的基础上进行升级，优化。
+升级内容：
+```json
+1.添加了S2-061漏洞
+2.优化了误报情况。
+3.个别添加了windows反弹shell功能。
+4.原来参数-r ip:port修改成了，
+-lr ip:port 反弹Linuxshell
+-wr ip:port反弹Windows shell
+5.还有其他细微的地方
+```
 # Struts2-Scan
 
 + Struts2漏洞利用扫描工具，基于互联网上已经公开的Structs2高危漏洞exp的扫描利用工具，目前支持的漏洞如下: S2-001, S2-003, S2-005, S2-007, S2-008, S2-009, S2-012, S2-013, S2-015, S2-016, S2-019, S2-029, S2-032, S2-033, S2-037, S2-045, S2-046, S2-048, S2-052, S2-053, S2-devMode, S2-057
