@@ -2,6 +2,18 @@
 原作者：github地址：[https://github.com/HatBoy/Struts2-Scan](https://github.com/HatBoy/Struts2-Scan)
 感谢原作者开源的工具
 此次是在原有的基础上进行升级，优化。
+
+更新2022-4-16
+```json
+1.添加了S2-062漏洞利用
+其实是对S2-061漏洞的绕过
+支持命令执行，Linux反弹shell，windows反弹shell。
+2.解决了了Windows反弹shell的功能
+底层原理：解决了有效负载Runtime.getRuntime().exec()执行复杂windows命令
+不成功的问题。
+详情文章：https://www.yuque.com/docs/share/0abe4b7e-45fd-4902-a23a-ad51ab72cbb9?# 《使用java命令执行函数反弹windows-shell》
+
+```
 升级内容：
 ```json
 1.添加了S2-061漏洞
