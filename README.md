@@ -2,7 +2,7 @@
 原作者：github地址：[https://github.com/HatBoy/Struts2-Scan](https://github.com/HatBoy/Struts2-Scan)
 感谢原作者开源的工具
 此次是在原有的基础上进行升级，优化。
-## 觉得好用就点下右上角的星星支持一下吧
+## 觉得对你有所帮助就点下右上角的星星支持一下吧
 更新2022-4-16
 ```json
 1.添加了S2-062漏洞利用
